@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(background/instrumento.jpg);
+    background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    position: relative;
+  }
+  h1:before,
+  h1:after {
+    content: "";
+    width: 35%;
+    height: 1px;
+    background: #555;
+    position: absolute;
+    top: 50%;
+  }
+  h1:before {
+    left: 0;
+  }
+  h1:after {
+    right: 0;
+  }
+
+#container {
+    width: 700px;
+    height: 300px;
+    /* box-shadow: 0 0 10px black; */
+
+    /* background-color: darkblue; */
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+button {
+    width: 80px;
+    height: 80px;
+    margin-left: 8px;
+    box-shadow: 0 0 10px red;
+    margin-top: 50px;
+
+}
+
+button:hover {
+  background-color: rgba(221, 111, 111, 0.534);
+}
