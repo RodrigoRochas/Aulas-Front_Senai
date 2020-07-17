@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Aula - 01: Primeiros Conceitos</title>
+
+        <style>
+            input {
+                height: 30px;
+                width: 200px;
+                border-radius: 10px;
+            }
+
+            div {
+                display: flex;
+                flex-direction: column;
+
+            }
+
+        </style>
+    </head>
+    <body>
+
+        <button id="exibir"> Exibir </button>
+        <h1>Controle de Notas</h1>
+        <div>
+            Nome:
+            <input type="text" id="nome" placeholder="Digite seu nome"> <br>
+
+            Nota1:
+            <input type="text" id="nota1" placeholder="Digite a nota #1"> <br>
+
+            Nota2:
+            <input type="text" id="nota2" placeholder="Digite a nota #2"> <br>
+
+            Média:
+            <input type="text" id="media" disabled placeholder="Média"> <br>
+
+            Situação:
+            <input type="text" id="situacao" disabled placeholder="Situação"> <br>
+            
+            Conceito:
+            <input type="text" id="conceito" disabled placeholder="Conceito"> <br>
+
+            <input type="button" value="Mandar" onclick="chama()" style="margin-left: 50px; margin-top: 10px;">
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
